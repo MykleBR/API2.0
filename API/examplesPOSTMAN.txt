@@ -1,0 +1,47 @@
+    Criar um novo contato (POST):
+
+    Método: POST
+    URL: http://localhost:5000/contatos
+    Corpo (Body) da Requisição (JSON):
+    json
+    {
+        "nome": "João",
+        "sobrenome": "Silva",
+        "email": "joao@example.com",
+        "telefone": "(11) 98765-4321"
+    }
+
+
+
+    Ler um contato pelo ID (GET):
+    Método: GET
+    URL: http://localhost:5000/contatos/{id}
+    Substitua {id} pelo ID do contato que deseja ler, por exemplo, http://localhost:5000/contatos/1 para ler o contato com ID igual a 1.
+
+
+
+    Atualizar um contato pelo ID (PUT):
+    Método: PUT
+    URL: http://localhost:5000/contatos/{id}
+    Substitua {id} pelo ID do contato que deseja atualizar, por exemplo, http://localhost:5000/contatos/1 para atualizar o contato com ID igual a 1.
+    Corpo (Body) da Requisição (JSON):
+
+    json
+    {
+        "nome": "João da Silva",
+        "email": "joao.silva@example.com"
+    }
+
+
+
+    Excluir um contato pelo ID (DELETE):
+    Método: DELETE
+    URL: http://localhost:5000/contatos/{id}
+    Substitua {id} pelo ID do contato que deseja excluir, por exemplo, http://localhost:5000/contatos/1 para excluir o contato com ID igual a 1.
+
+
+
+    Pesquisar contatos por parte do nome (GET):
+    Método: GET
+    URL: http://localhost:5000/contatos/search?nome={nome}
+    Substitua {nome} pelo nome ou parte do nome que deseja pesquisar, por exemplo, http://localhost:5000/contatos/search?nome=João para pesquisar contatos que tenham "João" no nome.

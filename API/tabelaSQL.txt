@@ -1,0 +1,7 @@
+CREATE TABLE `dbaxyateste`.`contato` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `nome` VARCHAR(100) NULL,
+  `sobrenome` VARCHAR(100) NULL,
+  `email` VARCHAR(100) NULL,
+  `telefone` VARCHAR(20) NULL,
+  PRIMARY KEY (`id`));
