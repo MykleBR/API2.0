@@ -26,7 +26,7 @@ Considere atualizar seu pip do venv:
 ## Executando a API
 
 Para executar a API localmente, vá para a pasta `app` e execute o arquivo `app.py`:
-    cd app</br>
+    </br>cd app</br>
     python app.py
 
 Isso iniciará o servidor de desenvolvimento na porta 5000.
@@ -34,7 +34,7 @@ Isso iniciará o servidor de desenvolvimento na porta 5000.
 ## Testando a API(por questoes de otimização projetei em outro local e iniciada de forma assincrona com a API, desta forma os testes serão bem executados)
 
 Os testes automatizados podem ser executados usando o módulo `unittest`. Vá para a pasta `tests` e execute o arquivo `test.py`:
-    cd tests</br>
+    </br>cd tests</br>
     python test.py
 
 Isso executará os testes e mostrará o resultado no terminal.
