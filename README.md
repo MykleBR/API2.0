@@ -1,3 +1,8 @@
+**IMPORTANTE**
+
+API e TEST são dois sistemas distintos porém assincronos, desta forma o ideal é que cada um tenha seu AMBIENTE VIRTUAL e o teste seja executado apenas quando a API estiver online, lembrando, para o teste unitario são criados dados ficticios
+
+
 # Contatos API
 
 Exemplo de API de contatos que permite realizar operações CRUD (Create, Read, Update, Delete) em uma lista de contatos pré setada.
